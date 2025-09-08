@@ -18,7 +18,7 @@ int goal[3][3] = {
 ## Code Description
 The code solves the 8 Puzzle Problem via both DFS and BFS (user has the option to choose at run-time). It then generates a tree of corresponding states from a given board configuration, by moving the empty space left, right, down and up (within constraints of the board size)
 
-Data Structures Used:
+### Data Structures Used:
 - **Enum**  `SearchType` to provide choice to the user between DFS and BFS
 - **Structure** `State` with member variables -- `int id`, `int arr[3][3]`, `int parent`, `int depth` to keep track of states
 - **Unordered Map** `stateMap` that maps state IDs to a state. Useful for tracing path taken by using parent's ID stored inside the state

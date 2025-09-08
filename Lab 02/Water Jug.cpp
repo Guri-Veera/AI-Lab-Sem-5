@@ -282,7 +282,6 @@ void GenMoves(State currState, std::deque<State> &container, std::unordered_set<
         
         if (openSet.find(key) == openSet.end() && closed.find(key) == closed.end()) {
             stateMap[next.id] = next;
-            
             // DFS: add to back (stack behavior)
             // BFS: add to back, but we take from front (queue behavior)
             container.push_back(next);

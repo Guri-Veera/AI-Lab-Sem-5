@@ -1,0 +1,5 @@
+*.exe
+*.txt
+Lab 1/
+# *.md
+.vscode/

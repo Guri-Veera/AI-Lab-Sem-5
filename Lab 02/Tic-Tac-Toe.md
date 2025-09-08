@@ -72,8 +72,7 @@ This ensures the AI always plays optimally.
   void playGame()
   ```
 
-## Example Run
-
+## Example Usage
 ### User Wins
 ```
 === TIC TAC TOE SOLVER ===
