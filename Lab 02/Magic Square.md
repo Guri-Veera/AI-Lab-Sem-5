@@ -28,7 +28,7 @@ Singly even (n = 2 mod 4) is not implemented in this code.
   vector<vector<int>> generateOdd(int n)
   ```
 > Used to solve the Magic Square for doubly-even n (n % 4) == 0
- ```cpp
+- ```cpp
   vector<vector<int>> generateDoublyEven(int n)
   ```
 

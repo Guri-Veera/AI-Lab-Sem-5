@@ -6,7 +6,7 @@ To measure out a certain volume of water using 2 water jugs of known max volume.
 ## Code Description
 The code solves the problem by considering all possible moves of a certain state and then parsing through the tree of these moves by DFS or BFS (chosen by the user at run-time)
 
-Data Structures Used:
+### Data Structures Used:
 - **Enum**  `SearchType` to provide choice to the user between DFS and BFS
 - **Structure** `State` with member variables -- `int id`, `int jug1`, `int jug2`, `int parent`, `int depth`, `std::string action` to keep track of states
 - **Structure** `JugConfig` with member variables -- `capacity1`, `capacity2`, `target` to store the limit of jugs and the final volume required
@@ -98,7 +98,6 @@ If container becomes empty and goal not found:
 - Check solvability condition:
     - If T % gcd(C1,C2) != 0 → Problem has no solution.
     - Else → Increase depth limit and retry.
-```
 ```
 
 ## Comments
